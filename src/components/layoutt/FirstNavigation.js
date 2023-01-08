@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 
-function MainNavigation() {
+function FirstNavigation() {
   return (
     <header>
       <div>Daily Meetups</div>
@@ -20,4 +20,4 @@ function MainNavigation() {
     </header>
   );
 }
-export default MainNavigation;
+export default FirstNavigation;
