@@ -1,9 +1,10 @@
 import {Link} from 'react-router-dom';
+import classes from './FirstNavigation.module.css';
 
 function FirstNavigation() {
   return (
-    <header>
-      <div>Daily Meetups</div>
+    <header className={classes.header}>
+      <div className={classes.logo}>Daily Meetups</div>
       <nav>
         <ul>
           <li>
