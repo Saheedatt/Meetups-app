@@ -8,8 +8,7 @@ import Layout from "./components/layoutt/Layout.js";
 function App() {
 
   return (
-    <Layout>
-     
+    <Layout> 
     <Routes>
       <Route path="/" element={<AllMeetupsPage />}/>
       <Route path="/new-meetup" element={<NewMeetupsPage />}/>
